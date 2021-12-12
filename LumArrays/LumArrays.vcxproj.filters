@@ -21,18 +21,15 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\ArrayManipulation.h">
+    <ClInclude Include="..\src\LumArrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LumArrays.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\ArrayManipulation.cpp">
+    <ClCompile Include="..\src\LumArrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

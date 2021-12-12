@@ -1,4 +1,4 @@
-#include "ArrayManipulation.h"
+#include "LumArrays.h"
 
 /// <summary>
 /// Sum the first numElements in an array.
