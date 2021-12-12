@@ -1,6 +1,12 @@
 #include "ArrayManipulation.h"
 
-int sum(int* vec, uint8_t numElements) {
+/// <summary>
+/// Sum the first numElements in an array.
+/// </summary>
+/// <param name="vec"></param>
+/// <param name="numElements"></param>
+/// <returns></returns>
+int sum(int* vec, unsigned int numElements) {
   int sumVec = 0;
   for(int k=0;k<numElements;k++)
   {
@@ -10,7 +16,7 @@ int sum(int* vec, uint8_t numElements) {
   return sumVec;
 }
 
-float sum(float* vec, uint8_t numElements) {
+float sum(float* vec, unsigned int numElements) {
   float sumVec = 0;
   for(int k=0;k<numElements;k++)
   {
@@ -20,12 +26,12 @@ float sum(float* vec, uint8_t numElements) {
   return sumVec;
 }
 
-int average(int* vec, uint8_t numElements) {
+int average(int* vec, unsigned int numElements) {
   int sumVec = sum(vec,numElements);
   return sumVec/numElements;
 }
 
-float average(float* vec, uint8_t numElements) {
+float average(float* vec, unsigned int numElements) {
   float sumVec = sum(vec,numElements);
   return sumVec/numElements;
 }
